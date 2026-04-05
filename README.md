@@ -54,15 +54,3 @@ This project is built on three core concepts:
 
 - **Other Tools**  
   `morgan`, `cookie-parser`
-
----
-
-## 🚀 Getting Started
-
-Make sure you have [Node.js](https://nodejs.org/) installed.
-
-```bash
-git clone https://github.com/YOUR_USERNAME/RePlate.git
-cd RePlate
-npm install
-npm start
