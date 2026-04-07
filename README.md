@@ -57,9 +57,6 @@ This project is built on three core concepts:
 
 ---
 
-## 👾 Demo Video
-
-
 ## 📺 Demo Video
 Click the image below to watch the project demonstration:
 
