@@ -1,4 +1,4 @@
-# RePlate — Interactive System for Sustainable Food Redistribution
+# RePlate: Interactive System for Sustainable Food Redistribution
 
 > **A simulation-based web application that models surplus food allocation and promotes sustainable decision-making through interactive gameplay.**
 
