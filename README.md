@@ -10,7 +10,6 @@ Food waste and unequal distribution remain critical global challenges: while a s
 
 By reframing food redistribution as an interactive system, this project explores how **UX design and simulation mechanics can influence awareness, behavior, and decision-making** around sustainability.
 
----
 
 ## 🧠 Design Thinking
 
@@ -25,7 +24,6 @@ This project is built on three core concepts:
 - **Sustainable Interaction**  
   Introduces alternative flows such as food processing (e.g., composting), encouraging environmentally responsible decisions.
 
----
 
 ## ✨ Features
 
@@ -41,7 +39,6 @@ This project is built on three core concepts:
 - **Dynamic Feedback System**  
   Visual animations, collision detection, and audio cues reinforce user actions and outcomes.
 
----
 
 ## 🛠️ Tech Stack
 
@@ -55,6 +52,29 @@ This project is built on three core concepts:
 - **Other Tools**  
   `morgan`, `cookie-parser`
 
+---
+## 🏗️ Project Architecture
+
+The project follows a decoupled architecture where the **Node.js/Express** backend handles the server environment and routing, while the **p5.js** engine manages the interactive simulation on the client side.
+
+### 📂 Directory Structure
+
+```text
+REPLATE/
+├── bin/
+│   └── www             # Entry point: Starts the HTTP server
+├── routes/
+│   ├── index.js        # Main router for handling page requests
+│   └── users.js        # Placeholder for user-related logic
+├── public/             # Client-side assets (The core simulation)
+│   ├── index.html      # Main application window
+│   ├── project.js      # Core logic (p5.js sketch, physics, and gameplay)
+│   ├── style.css       # UI styling and layout
+│   ├── pic/            # Visual assets (Food items, UI icons)
+│   └── *.mp3           # Audio feedback (Cargo, Yummy, Press, etc.)
+├── app.js              # Express application configuration
+└── package.json        # Project dependencies and scripts
+```
 ---
 
 ## 📺 Demo Video
